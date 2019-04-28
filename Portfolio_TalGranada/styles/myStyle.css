@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+/*הגדרות לכלל האתר*/
+/*הגדרת צבע רקע לכלל האתר*/
+body {
+    direction: rtl;
+    background-color:#ffebf3;
+}
+/*טיפול בקונטיינר. תמונת רקע- לוגו, הטמעת פונט מגוגל פונטס והגדרת גודל הפונט לכלל האתר*/
+#container {
+    width:960px;
+    margin: 0 auto;
+    background-image: url("../images/logo.png");
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: top right;
+    font-family: 'Varela Round',sans-serif;
+    font-size: 12pt;
+}
+/*תפריט הניווט- אופקי*/
+#nav1{
+    margin-right:73px;
+}
+#nav1 ul li {
+    display: inline-block;
+    float: right;
+    margin-top:22px;
+}
+/*הגדרות לתפריט הניווט למשל הצבע*/
+    #nav1 ul li a {
+        display: block;
+        background-color: #81A684;
+        color: black;
+        width: 200px;
+        height: 31px;
+        padding-top: 18px;
+        text-decoration: none;
+        text-align: center;
+    }
+/*שינוי צבע במעבר עכבר*/
+        #nav1 ul li a:hover {
+            background-color: #F2958D;
+        }
+        /*שינוי צבע בלחיצת עכבר*/
+        #nav1 ul li a:active {
+            background-color: #F27272;
+        }
+/*הדגשת העמוד עליו נמצאים כדי לעזור למשתמש להבין היכן נמצא*/
+.currentPage {
+    background-color: #F27272 !important;
+    color: black;
+}
+/*הגדרות לאינדקס- דף הבית*/
+/*הגדרת רקע לדף הבית*/
+#backgroundHomePage{
+    background-image:url("../images/background.jpg");
+}
+/*הגדרת רקע לתוכן דף הבית*/
+#HomePage {
+    background-color: #ffebf3;
+}
+/*הגדרות לפסקת הטקסט בדף הבית*/
+#pHome {
+    padding-top: 120px;
+    width: 590px;
+    text-align: justify;
+    position: center;
+    margin-right: 210px;
+    font-size: 16pt;
+}
+/*הגדרות של גודל ומיקום לתמונה שלי ובחירת נתיב התמונה*/
+#tal {
+    background-image: url("../images/tal.jpg");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    width: 200px;
+    height: 2242px;
+    margin-top: -2205px;
+}
+/*תמונת קולאז' של הצצה לתוצרי האתר ואנימציה מלאה במעבר עכבר*/
+#works {
+    background-image: url("../images/works.png");
+    background-repeat: no-repeat;
+    width: 820px;
+    height: 270px;
+    background-size: 500px;
+    background-position: bottom right;
+    margin-top: -70px;
+    -webkit-transition: all 5s ease;
+    -moz-transition: all 5s ease;
+    -ms-transition: all 5s ease;
+    -o-transition: all 5s ease;
+    transition: all 5s ease;
+}
+/*הגדרות למעבר עכבר ואנימציה מלאה במעבר עכבר*/
+    #works:hover {
+        background-image: url("../images/works.png");
+        background-repeat: no-repeat;
+        width: 820px;
+        height: 270px;
+        background-size: 530px;
+        background-position: bottom right;
+        margin-top: -80px;
+        -webkit-transition: all 5s ease;
+        -moz-transition: all 5s ease;
+        -ms-transition: all 5s ease;
+        -o-transition: all 5s ease;
+        transition: all 5s ease;
+    }
+/* זו הגדרה לדף הבית כולו, כאן יש טיפול בכותרת השנייה שבתוכו home page*/
+#HomePage h2{
+    margin-top:150px;
+}
+/*הגדרות לדף תקשורת חזותית*/
+/*כל התוכן הטקסטואלי- רוחב ומיקום*/
+#content {
+    margin-top: 3px;
+    width: 875px;
+}
+/*מיקום הפסקה הראשונה*/
+#p1 {
+    margin-top: 10px;
+}
+/*מיקום הפסקה השנייה*/
+#p2{
+    margin-top:20px;
+}
+/*הגדרת קלאס של עיצוב בבולד, בכוונה בחרתי קלאס כי אולי יהיו עוד אלמנטים שארצה להדגיש*/
+.bold{
+    font-weight:bold;
+}
+/*הגדרות עיצוב ל2 בתמונות ביחד- רוחב ומיקום*/
+#time, #pic3 {
+    width: 434px;
+    margin-top: 10px;
+}
+/*הגדרת גובה רק ליצירה העכשווית- כיוון ו2 היצירות לא היו באותו גובה*/
+#pic3{
+    height:329px;
+}
+/*מיקום הוידאו בדף*/
+#video{
+    margin-top:20px;
+}
+/*הגדרות עיצוב לדף פוטושופ*/
+/*מיקום ורוחב התמונה בדף זה*/
+#poster {
+    width: 300px;
+    margin-top: 50px;
+}
+/*id תוכן טקסטואלי- רוחב ומיקום. שימוש באלמנטים מקוננים ולא ב*/
+#photoshop section {
+    margin-right: 335px;
+    margin-top: -430px;
+    width: 480px;
+}
+/*שינוי צבע הטקסט במעבר עכבר*/
+    #photoshop section:hover {
+        margin-right: 335px;
+        margin-top: -430px;
+        width: 480px;
+        color: #395ff0;
+    }
+/*id מיקום האודיו, שימוש באלמנטים מקוננים ולא ב*/
+#photoshop audio {
+    margin-top: 45px;
+    margin-right: 330px;
+}
+/*הגדרות עיצוב לדף אילוסטרייטור*/
+/*מיקום ורוחב תמונת תוצר. תמונה זו לחיצה ופותחת דף חדש עם התמונה בגודל מלא*/
+#hit {
+    width: 300px;
+    margin-top: 50px;
+}
+/*id תוכן טקסטואלי- רוחב ומיקום. שימוש באלמנטים מקוננים ולא ב*/
+#illustrator section {
+    margin-right: 335px;
+    margin-top: -425px;
+    width: 500px;
+}
+/*פסקאות תוכן- הגדרות עיצוב של בולד, צבע ומיקום. ניתנו המספרים 3 ו-4 כיוון והמספרים 1 ו-2 כבר מייצגים פסקאות אחרות*/
+#p3, #p4 {
+    margin-top: 10px;
+    color: #395ff0;
+    font-weight: bold;
+}
+/*id מיקום האודיו, שימוש באלמנטים מקוננים ולא ב*/
+#illustrator audio {
+    margin-top: 45px;
+    margin-right: 330px;
+}
