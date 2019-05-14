@@ -1,0 +1,47 @@
+body {
+    direction: rtl;
+    background-color: darkslategray;
+    color: white;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 80px;
+    background-size: 960px;
+}
+#container {
+    width: 960px;
+    margin: 0 auto;
+    font-size: 16pt;
+}
+ul {
+    list-style-type: none;
+    list-style-image:url("../images/v.png");
+}
+section {
+    line-height: 40px;
+    padding-right: 650px;
+    padding-top: 45px;
+}
+h1, #p1 {
+    text-align: center;
+    line-height: 40px;
+}
+#p1 {
+    font-size: 25pt;
+    margin-top: 40px;
+}
+h1{
+    font-size:30pt;
+    margin-top:20px;
+}
+form{
+    margin-top:40px;
+}
+#p2 {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 25pt;
+}
+#feedback {
+    text-align: center;
+}
